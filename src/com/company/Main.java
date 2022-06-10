@@ -11,7 +11,7 @@ public class Main {
         symmetric( new HashSet(Arrays.asList(1,2,3,4,55)),
         new HashSet<>(Arrays.asList(0,1,2,-3)));
     }
-    public static Set<Integer> symmetric(HashSet<Integer> set1, HashSet<Integer> set2) {
+    public static Set<Integer> symmetric(Set<Integer> set1, Set<Integer> set2) {
         System.out.println("In set 1: " + set1);
         System.out.println("In set 2: " + set2 + "\n");
 
