@@ -35,29 +35,7 @@ public class Main {
     }
 }
 
-      /**  Set<Integer> num = new HashSet<>();
-        num.add(3);
-        num.add(4);
-        num.add(1);
-        System.out.println("Set 1: " + num);
 
-        Set<Integer> nums = new HashSet<>();
-        nums.add(2);
-        nums.add(1);
-        nums.add(7);
-        System.out.println("Set 2: " + nums);
-
-        System.out.println("Symmetric difference: " + symmetricDifference(num, nums));
-    }
-
-    public static Set<Integer> symmetricDifference(Set<Integer> num, Set<Integer> nums) {
-        Set<Integer> number = new HashSet<>(num);
-        number.removeAll(nums);
-        nums.removeAll(num);
-        number.addAll(nums);
-
-        return number;
-    } */
 
 
 
